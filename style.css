@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header, .hero {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    flex: 1;
+}
+
+.heropic {
+ width: 500px;
+ height: 200px;
+ background-color: gray;
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+}
