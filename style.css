@@ -4,7 +4,14 @@ body {
     align-items: center;
 }
 
+
+
 .header {
     background-color: #1F2937;
     color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
 }
