@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     min-height: 100vh;
+    line-height: 1.6;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -33,4 +34,41 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: #1F2937;
+}
+
+.trio {
+    flex:1;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.image {
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.image img {
+    height: 400px;
 }
