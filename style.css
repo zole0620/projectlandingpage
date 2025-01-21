@@ -28,6 +28,7 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding: 10px 200px;
 }
 
 .logo {
@@ -42,6 +43,7 @@ a {
     align-items: center;
     gap: 50px;
     background-color: #1F2937;
+    padding: 100px 200px;
 }
 
 .trio {
@@ -69,6 +71,6 @@ button {
     flex: 1;
 }
 
-.image img {
+img {
     height: 400px;
 }
