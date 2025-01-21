@@ -72,6 +72,8 @@ button {
 .image {
     background-color: #E5E7EB;
     flex: 1;
+    height: 255px;
+    width: 500px;
     
 }
 
@@ -170,4 +172,14 @@ p {
 .bluebox button {
     border: 2px solid #F9FAF8;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 300px;
 }
